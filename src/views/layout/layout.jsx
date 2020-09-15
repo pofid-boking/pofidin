@@ -81,7 +81,11 @@ class Layout extends Component {
                                 selected={this.props.selectedTab === 'dapp'}
                                 onPress={()=>{
                                     // url.goPage(url.DApp,"")
-                                    url.goPage(url.browser("http://111.231.194.84:1001"))
+                                    if(!config.isZH()){
+                                        url.goPage(url.browser("https://pofid-boking.github.io/boking"))
+                                    }else {
+                                        url.goPage(url.browser("https://pofid-boking.gitee.io/boking"))
+                                    }
                                 }}
                             > </TabBar.Item>:""
 

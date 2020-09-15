@@ -35,7 +35,7 @@
     function checkUpdate(wgtVer){
         var checkUrl="http://pofid-boking.gitee.io/pofidin/version.json?"+new Date().getTime();
         if(!isZH()){
-            checkUrl = "http://pofid-boking.gitee.io/pofidin/version.json?"+new Date().getTime();
+            checkUrl = "http://pofid-boking.github.io/pofidin/version.json?"+new Date().getTime();
         }
         console.log(checkUrl);
         httpGet(checkUrl,function(resp,err){
