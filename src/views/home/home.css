@@ -1,0 +1,128 @@
+.am-card{
+    background: #c0ad94;
+}
+
+.tabbar {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 999;
+    /*background:#1e1f20*/
+}
+
+.layout-top{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+}
+
+.am-card-header-content{
+    color: #1f1f1f;
+
+}
+
+.am-card-header-extra{
+    color: #1f1f1f;
+}
+
+.am-card-body div {
+    color: #1f1f1f;
+}
+
+.am-card-footer{
+    color:#1f1f1f;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.am-card-footer-content {
+    flex: 0 1;
+}
+
+.am-card-body {
+    position: unset;
+    border-top: unset;
+    padding:0px 15px 6px;
+}
+
+.home-list-item-money {
+    /*color: #fff;*/
+    font-size: 12px;
+}
+
+.home-list-item-number{
+    color: #1f1f1f;
+    font-size: 16px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.am-list-item{
+    background: #c0ad94 !important;
+    border-radius: 5px;
+}
+
+.am-swipe-content .am-list-item{
+    border-radius: 5px;
+}
+
+.home-list-item-name{
+    font-size: 18px;
+    overflow-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /*color: #fff;*/
+}
+.am-list-item .am-list-line .am-list-extra{
+    flex-basis: 50%;
+}
+
+/*.am-list-body::after {*/
+/*    background-color:unset !important;*/
+/*}*/
+
+.home-list-title{
+    /*background: #1e1f20;*/
+    width: 100%;
+    /*color: #fff;*/
+    font-size: 17px;
+    font-weight: bold;
+    /*border-bottom: 1PX solid #1e1f20;*/
+    padding: 0px 0px 10px;
+}
+
+.currency-icon-border{
+    /*border: 1PX solid #ddd;*/
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.icon-pkr{
+    width: 16px;
+    position: relative;
+    top: 4px;
+    margin-right: 5px;
+}
+
+.icon-select-account-setting{
+    position: relative;
+    float: right;
+    bottom: 4px;
+}
+
+.show-info {
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+}
+.show-info .progress {
+    margin-right: 5px;
+    width: 100%;
+}
+
+.am-swipe-content{
+    background-color: unset !important;
+}
+

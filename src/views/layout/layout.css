@@ -1,0 +1,18 @@
+.tabbar {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 999;
+    /*background:#1e1f20*/
+}
+
+.layout-top{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+}
+
+.am-tab-bar-bar{
+    /*background: #1e1f20 !important;*/
+}
