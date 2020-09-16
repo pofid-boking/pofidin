@@ -155,7 +155,7 @@ module.exports = function(webpackEnv) {
           "@color-text-base":"#FFFFFF",
           "@color-text-base-inverse":"#fff",
           "@color-text-secondary":"#a4a9b0",
-          "@color-text-placeholder":"#bbb",
+          "@color-text-placeholder":"#f7f7f7",
           "@color-text-disabled":"#bbb",
           "@color-text-caption":"#f7f7f7",
           "@color-text-paragraph":"#333",

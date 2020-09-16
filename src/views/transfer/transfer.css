@@ -292,6 +292,6 @@ textarea{
 
 .am-modal-input input {
     width: 100% !important;
-    background: #d6b781;
+    /*background: #d6b781;*/
     border-radius: 5px !important;
 }
