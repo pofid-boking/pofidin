@@ -143,30 +143,33 @@ module.exports = function(webpackEnv) {
       }
       if (preProcessor === "less-loader") {
         loader.options.modifyVars = {
+
           "@brand-primary": "#ffc600",
-          "@brand-primary-tap": "#d6b781",
+          "@brand-primary-tap": "#FFFFFF",
           "@brand-success": "#6abf47",
           "@brand-warning": "#ffc600",
           "@brand-error": "#f4333c",
           "@brand-important": "#ff5b05",
           "@brand-wait": "#1f1f1f",
 
-          "@color-text-base":"#ffc600",
-          "@color-text-base-inverse":"#d6b781",
-          "@color-text-secondary":"#d6b781",
-          "@color-text-placeholder":"#b1986b",
-          "@color-text-disabled":"#d5b781",
-          "@color-text-caption":"#bda272",
-          "@color-text-paragraph":"#d6b781",
+          "@color-text-base":"#FFFFFF",
+          "@color-text-base-inverse":"#fff",
+          "@color-text-secondary":"#a4a9b0",
+          "@color-text-placeholder":"#bbb",
+          "@color-text-disabled":"#bbb",
+          "@color-text-caption":"#f7f7f7",
+          "@color-text-paragraph":"#333",
           "@color-link":"@brand-primary",
 
           "@fill-base":"#1f1f1f",
           "@fill-body":"#1f1f1f",
-          "@fill-tap":"#bda272",
-          "@fill-disabled":"#a9a9a9",
+          "@fill-tap":"#5f5f5f",
+          "@fill-disabled":"#ddd",
           "@fill-mask":"rgba(0,0,0,0.4)",
-          "@color-icon-base":"#d6b781",
-          "@fill-grey":"#1f1f1f"
+          "@color-icon-base":"#333",
+          "@fill-grey":"#888",
+
+
 
         }
         loader.options.javascriptEnabled = true
