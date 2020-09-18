@@ -1,7 +1,7 @@
 {
   "zh": {
     "docs": {
-      "version": "1.0.4",
+      "version": "1.0.3",
       "url": "https://download.pofid.com/pofidin/1.0.4/com.pofid.pfidin.wgt",
       "show": false,
       "description": [
@@ -13,7 +13,7 @@
 
   "en": {
     "docs": {
-      "version": "1.0.4",
+      "version": "1.0.3",
       "url": "https://github.com/pofid-boking/pofidin/releases/download/v1.0.4/com.pofid.pfidin.wgt",
       "show": false,
       "description": [
