@@ -82,9 +82,9 @@ class Layout extends Component {
                                 onPress={()=>{
                                     // url.goPage(url.DApp,"")
                                     if(!config.isZH()){
-                                        url.goPage(url.browser("https://pofid-boking.github.io/boking"))
+                                        url.goPage(url.browser("https://pofid-boking.github.io/boking?"+new Date().getTime()))
                                     }else {
-                                        url.goPage(url.browser("https://pofid-boking.gitee.io/boking"))
+                                        url.goPage(url.browser("https://pofid-boking.gitee.io/boking?"+new Date().getTime()))
                                     }
                                 }}
                             > </TabBar.Item>:""
